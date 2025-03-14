@@ -64,7 +64,7 @@ function verificaVittoria() {
 
     mosseRestanti--;
 
-    // Verifica se la guardia ha raggiunto il ladro (con una distanza inferiore a 50px)
+    
     if (Math.abs(leftGuardia - leftLadro) < 50 && Math.abs(topGuardia - topLadro) < 50) {
         esito.innerText = "La guardia ha catturato il ladro! Hai vinto!";
         disabilitaPulsanti();
